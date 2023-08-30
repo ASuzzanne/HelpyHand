@@ -1,9 +1,5 @@
 # Helpy-Hand
 # Description: 
-Certainly, here's a description that you can add to your GitHub repository for the provided code:
-
----
-
 ## Eye-Controlled Mouse using FaceMesh and PyAutoGUI
 
 This repository contains a Python script that demonstrates the creation of an eye-controlled mouse application using the FaceMesh model from the Mediapipe library and the PyAutoGUI library for cursor control and interactions.
@@ -38,10 +34,6 @@ This repository contains a Python script that demonstrates the creation of an ey
 - [OpenCV](https://opencv.org/): Open Source Computer Vision Library
 - [Mediapipe](https://mediapipe.dev/): A Cross-Platform Framework for Building Multimodal Applied ML Pipelines
 - [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/): Cross-platform GUI automation Python module
-
-Sure, here's a detailed description you can use for your GitHub repository:
-
----
 
 ## Voice-Controlled Web Search with Python
 
