@@ -39,10 +39,45 @@ This repository contains a Python script that demonstrates the creation of an ey
 - [Mediapipe](https://mediapipe.dev/): A Cross-Platform Framework for Building Multimodal Applied ML Pipelines
 - [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/): Cross-platform GUI automation Python module
 
-### Note:
-
-This project is intended for educational and demonstration purposes. It showcases how facial landmark detection can be used to create innovative and interactive applications.
+Sure, here's a detailed description you can use for your GitHub repository:
 
 ---
 
-Feel free to modify and customize this description to suit your GitHub repository's style and content.
+## Voice-Controlled Web Search with Python
+
+This repository hosts a Python script that demonstrates the creation of a voice-controlled web search tool. The script integrates several powerful libraries, allowing users to perform web searches using only their voice commands. By employing speech recognition, text-to-speech conversion, and web browsing capabilities, this project showcases how modern technologies can be seamlessly combined to enhance user interaction.
+
+### Features:
+
+- **Voice Interaction:** The script utilizes the `speech_recognition` library to capture and recognize the user's voice commands. This enables users to speak their search queries naturally.
+
+- **Text-to-Speech Feedback:** The application employs the `pyttsx3` library to provide audible feedback to users. The tool vocalizes the recognized search query and welcomes users upon startup.
+
+- **Web Search Integration:** The project integrates the `googlesearch` and `webbrowser` libraries, allowing users to perform web searches based on their voice input. The first search result is automatically opened in a new browser tab.
+
+- **User-Friendly Interaction:** Users are guided throughout the interaction with spoken prompts, enhancing the user experience and accessibility.
+
+### How to Use:
+
+1. Ensure you have the necessary libraries installed:
+   - `speech_recognition`
+   - `googlesearch`
+   - `webbrowser`
+   - `pyttsx3`
+
+2. Clone this repository to your local machine.
+
+3. Run the `voice_controlled_search.py` script using a Python interpreter.
+
+4. The application will prompt you with a welcome message and wait for your voice command.
+
+5. Speak your search query clearly into the microphone. The application will vocalize your query and perform the search.
+
+6. To exit the application, simply say "exit terminal."
+
+### Dependencies:
+
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/): Library for performing speech recognition
+- [googlesearch-python](https://pypi.org/project/googlesearch-python/): A Python wrapper for the Google Search API
+- [webbrowser](https://docs.python.org/3/library/webbrowser.html): Python's built-in web browsing module
+- [pyttsx3](https://pypi.org/project/pyttsx3/): Text-to-speech conversion library
