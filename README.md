@@ -1,3 +1,48 @@
 # Helpy-Hand
 # Description: 
-The code begins by importing necessary libraries: speech_recognition for speech recognition, googlesearch for performing Google searches, webbrowser for opening web pages, and pyttsx3 for text-to-speech conversion.  The main function is defined to handle the core functionality of the script:  It initializes the text-to-speech engine (pyttsx3) as x. It initializes the speech recognition engine (speech_recognition) as r. Within a with block, it uses the system's microphone as the audio source. It adjusts for ambient noise to improve speech recognition accuracy. The script greets the user by saying "Welcome, I am Angel." Inside a while loop, the script repeatedly prompts the user to say what they want to search for. It listens for the user's speech input and recognizes it using Google's speech recognition service. The recognized speech is spoken back to the user, and the recognized text is stored in the query variable in lowercase. If the recognized text is not "exit terminal," the script performs a Google search using googlesearch to find the first search result. The first search result is opened in a new browser tab using webbrowser. The loop continues until the user says "exit terminal." The script then checks whether it's being run directly (__name__ == "__main__") and if so, it calls the main function to start the interaction with the user.  Overall, this code uses speech recognition and text-to-speech capabilities to create an interactive voice-based search tool. It prompts the user to speak a search query, recognizes the speech, confirms the query, and performs a Google search to open the first search result in a new browser tab. The user can exit the interaction by saying "exit terminal."
+Certainly, here's a description that you can add to your GitHub repository for the provided code:
+
+---
+
+## Eye-Controlled Mouse using FaceMesh and PyAutoGUI
+
+This repository contains a Python script that demonstrates the creation of an eye-controlled mouse application using the FaceMesh model from the Mediapipe library and the PyAutoGUI library for cursor control and interactions.
+
+### Features:
+
+- **Real-time Eye Tracking:** The script utilizes the FaceMesh model from Mediapipe to detect and track facial landmarks, specifically focusing on the eye regions for eye gaze control.
+
+- **Mouse Cursor Control:** The application maps the movement of the user's eyes to the movement of the mouse cursor on the screen, allowing for intuitive control of the cursor's position.
+
+- **Left Eye Closure Interaction:** The code includes an interaction that detects the closure of the user's left eye. When the left eye is closed, the script triggers a mouse click action.
+
+- **User-Friendly Interface:** The application uses speech synthesis (text-to-speech) to provide voice prompts and feedback to the user throughout the interaction.
+
+### How to Use:
+
+1. Make sure you have the required libraries installed:
+   - OpenCV (`cv2`)
+   - Mediapipe (`mediapipe`)
+   - PyAutoGUI (`pyautogui`)
+
+2. Clone this repository to your local machine.
+
+3. Run the `eye_controlled_mouse.py` script using a Python interpreter.
+
+4. The webcam feed will open, and you can start controlling the mouse cursor by moving your eyes. Closing the left eye triggers a mouse click.
+
+5. To exit the application, press the 'q' key.
+
+### Dependencies:
+
+- [OpenCV](https://opencv.org/): Open Source Computer Vision Library
+- [Mediapipe](https://mediapipe.dev/): A Cross-Platform Framework for Building Multimodal Applied ML Pipelines
+- [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/): Cross-platform GUI automation Python module
+
+### Note:
+
+This project is intended for educational and demonstration purposes. It showcases how facial landmark detection can be used to create innovative and interactive applications.
+
+---
+
+Feel free to modify and customize this description to suit your GitHub repository's style and content.
